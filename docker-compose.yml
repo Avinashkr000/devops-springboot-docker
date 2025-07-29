@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  springboot-app:
+    image: springboot-app:v1
+    ports:
+      - "8080:8080"
+
